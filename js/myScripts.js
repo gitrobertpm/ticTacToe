@@ -302,6 +302,8 @@
 					ose.push(this.marker);
 					playaToggle = true;
 				}		
+			} else {
+				return;
 			}
 			
 			if(compCB.checked) {
